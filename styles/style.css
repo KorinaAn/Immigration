@@ -1,0 +1,48 @@
+html {
+  font-size: 12px; /* px means "pixels": the base font size is now 10 pixels high */
+  font-family: "Open Sans", sans-serif; /* this should be the rest of the output you got from Google Fonts */
+  background-color: bisque;
+}
+h1 {
+  font-size: 60px;
+  text-align: center;
+  color: blue;
+}
+.US {color: red;}
+.Immigration {color: white;}
+.data {color: blue;}
+
+h2 {font-size: 30px;
+  text-align: center;
+  color: navy;}
+p,
+li {  
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
+}
+button {
+  background-color: red;
+  font-size: 20px;
+  color: white;
+  padding: 10px 20px;
+  border: 1;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+}
+button:hover {background-color: dimgray;}
+
+img {display: block;
+  padding: 10;
+margin: 0 auto;
+align-items: center;
+zoom: 0.5}
+
+body {
+  width: 1000px;
+  margin: 0 auto;
+  background-color: #FACC85;
+  padding: 0 50px 30px 50px;
+  border: 10px;
+}
