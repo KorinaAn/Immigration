@@ -46,3 +46,25 @@ body {
   padding: 0 50px 30px 50px;
   border: 10px;
 }
+
+
+
+.factBox{
+    float: ; 
+    text-align: center;
+}
+#factTitle{
+    text-align: center;
+    margin:  0;
+     font-family:GoT;
+}
+#factDisplay{
+  background-color: darkgrey;
+  width: 80%;
+  margin: 10px;
+  text-align: center;
+  line-height: 20px;
+  font-size: 14px;
+  align-content: center;
+}
+}
