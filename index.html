@@ -1,4 +1,43 @@
+
 <!DOCTYPE html>
+
+<html lang="en">
+<head>
+<title>USImmigrationdata</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="styles/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="styles/style.css" rel="stylesheet" />
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+.fa-anchor,.fa-coffee {font-size:200px}
+</style>
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-blue w3-card w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="index.html" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
+    <a href="cost-of-living/index.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Average Cost of Living</a>
+    <a href="average-salary/index.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Average Salary</a>
+    <a href="employment-sectors/index.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Primary Employment Sectors</a>
+     <a href="temperature/index.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Weather Information</a>
+    <a href="our-team/index.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">About our team</a>
+  </div> 
+</div>
+
+  <!-- Header -->
+<header class="w3-container w3-beige w3-center" style="padding:50px 16px" "padding-bottom:0px">
+  <h1 class="w3-margin w3-jumbo"><strong class="US">US</strong><strong class="Immigration">Immigration</strong><strong class="data">data</strong></h1>
+   <img src="melting_pot.png" alt="The US is a melting pot full of people from all over the world">
+</header>
+
 <html>
     <head>
         <link href="styles/style.css" rel="stylesheet" />
@@ -7,15 +46,24 @@
     <body>
 
         <h1 id="Immigrationheading"> <strong class="US">US</strong><strong class="Immigration">Immigration</strong><strong class="data">data</strong></h1>
-        <div id="google_translate_element"></div>
+        <div style= "position:relative; left:0px;" id="google_translate_element"></div>
+
         <img src="melting_pot.png" alt="The US is a melting pot full of people from all over the world">
 
         <div>
 
-        <h2>Welcome to our website about US immigration data!</h2>
-        <p>Immigration to the United States has fluctuated over the past 20 years. In the early 2000s, immigration to the US increased significantly, driven in part by a rise in the number of people coming from Latin America, particularly Mexico. However, since the late 2000s, the number of people immigrating to the US has decreased slightly.
+
+<!-- First Grid -->
+<div class="w3-row-padding w3-padding w3-container">
+  <div class="w3-content">
+    <div class="w3-threequarter ">
+      <h1>Search by Country</h1>
+      <h5 class="w3-padding-32">Find your country to see all relevant information that you need to immigrate to any of the United States.</h5>
+
+      <p class="w3-text-grey">Immigration to the United States has fluctuated over the past 20 years. In the early 2000s, immigration to the US increased significantly, driven in part by a rise in the number of people coming from Latin America, particularly Mexico. However, since the late 2000s, the number of people immigrating to the US has decreased slightly.
 
         In recent years, the Trump Administration implemented a number of policies aimed at reducing immigration to the US, including stricter border controls, the termination of the Deferred Action for Childhood Arrivals (DACA) program, and the implementation of a travel ban targeting several majority-Muslim countries. These policies have likely contributed to a decrease in immigration to the US in recent years.
+
 
         It's worth noting that while the overall number of immigrants coming to the US may have decreased slightly in recent years, the demographics of immigrants to the US have changed. For example, in recent years there has been an increase in the number of immigrants coming to the US from Asian countries, particularly China and India. There has also been an increase in the number of immigrants coming to the US from African countries. </p>
 
@@ -24,6 +72,7 @@
         </div>
 
 <iframe title="Immigrant Population in  US states in 2021" aria-label="Map" id="datawrapper-chart-xTf4Q" src="https://datawrapper.dwcdn.net/xTf4Q/4/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="782" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();</script>
+
 
         </div>
 
@@ -41,6 +90,30 @@
         <button><a href='employment-sectors/index.html'> Primary Employment Sectors</a></button>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
         <button><a href='our-team/index.html'>Learn more about our team</a></button>
 
+    <div class="w3-quarter w3-center">
+      <i class=" w3-padding-64 w3-text-red"></i>
+     
+    </div>
+  </div>
+</div>
+
+
+<div class="w3-container w3-brown w3-center w3-opacity w3-padding-64">
+    <h1 class="w3-margin w3-xlarge">Quote of the day: live life</h1>
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity">  
+  <div class="w3-xlarge w3-padding-32">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+ </div>
+ <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+</footer>
 
         
 <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
@@ -49,3 +122,7 @@
     </body>
 </html>
 
+
+
+</body>
+</html>
