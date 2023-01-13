@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+  </head>
+  <body>
+    <svg width="960" height="600"></svg>
+    <script>
+      // set up the svg canvas
+      var svg = d3.select("svg"),
+          width = +svg.attr("width"),
+          height = +svg.attr("height");
+
+      // load the world map data from the svg file
+      d3.xml("world.svg").then(function(xml) {
+          var importedNode = document.importNode(xml.documentElement, true);
+          svg.node().appendChild(importedNode);
+
+          // load the data from the csv file
+          d3.csv("001.csv").then(function(data) {
+              // create a dictionary to store the data values
+              var dataDict = {};
+              data.forEach(function(d) {
+                  dataDict[d.code] = +d.value;
+              });
+
+              // define the color scale
+              var color = d3.scaleThreshold()
+                            .domain([1, 10, 20, 30, 40, 50])
+                            .range(["#f2f0f7", "#dadaeb", "#bcbddc", "#9e9ac8", "#756bb1", "#54278f"]);
+
+              // color each country according to the data
+              svg.selectAll("path")
+                 .style("fill", function(d) {
+                     var code = d3.select(this).attr("id");
+                     var dataValue = dataDict[code];
+                     return color(dataValue);
+                 });
+          });
+      });
+    </script>
+  </body>
+</html>

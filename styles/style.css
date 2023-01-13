@@ -45,8 +45,34 @@ body {
   border: 10px;
 }
 
+
+
+.factBox{
+    float: ; 
+    text-align: center;
+}
+#factTitle{
+    text-align: center;
+    margin:  0;
+    
+}
+#factDisplay{
+  width: 100%;
+  margin: 10px;
+  text-align: center;
+  align-content: center;
+  font-size: 30px;
+}
+
+
+#fact-generator{
+  border: 5px solid black;
+  margin: 10px;
+}
+
 /* positioning of google translate button*/
 .google_translate_element_2{
     position: relative;
     left: 0px;
 }
+
