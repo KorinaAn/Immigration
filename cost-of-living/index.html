@@ -29,5 +29,100 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
   </div> 
         <h1>Average Cost of Living in US States</h1>
         
+=======
+    <head>
+        <title>Cost of Living</title>
+           <link href="../styles/costofliving.css" rel="stylesheet"/>
+
+      
+
+<style>
+        table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 0px solid #ddd;
+}
+th,
+td {
+    text-align: left;
+    padding: 8px;
+}
+
+/*Width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/*Track*/
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/*Handle*/
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/*Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.scroll {
+    display: flex;
+}
+
+.left{
+    border: 0px solid red;
+    padding: 5px;
+    margin-top: 5px;
+    width: 50%;
+    height: 400px;
+    position: float left;
+    overflow-y: scroll;
+}
+
+.right{
+    border: 0px solid red;
+    padding: 5px;
+    margin-top: 5px;
+    width: 50%;
+    height: 400px;
+    position: float right;
+    overflow-y: scroll;
+}
+
+
+</style>
+    </head>
+
+    <body>
+        <h1>Cost of Living</h1>
+<!--Div for google translate function-->
+<div id="google_translate_element_2"></div>
+
+<p> Price differences across the United States can dramatically alter the cost of living in a given location. Take a look at the tables below to compare housing costs and fuel prices in different states and cities.</p>
+
+
+<div class="scroll">
+    <div class="left">
+      <iframe title="Average Rent" aria-label="Range Plot" id="datawrapper-chart-dU1CL" src="https://datawrapper.dwcdn.net/dU1CL/4/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="4496" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+        </script>
+        </div>
+
+    <div class="right">
+      <iframe title="Average Fuel Prices by State" aria-label="Table" id="datawrapper-chart-3UwKO" src="https://datawrapper.dwcdn.net/3UwKO/4/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="2091" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+</script>
+        </div>
+</div>
+
+        <button><a href="../">Main Page</a></button>
+
+<!--Script for Translate-->
+<script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+<script src="../scripts/translate.js"></script> 
+
     </body>
 </html>
+
