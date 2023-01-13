@@ -1,8 +1,38 @@
 <!DOCTYPE html>
 <html>
+       <head>
+<title>Cost of Living</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="../styles/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="../styles/style.css" rel="stylesheet" />
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+.fa-anchor,.fa-coffee {font-size:200px}
+</style>
+</head>
+    <body>
+              <!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-blue w3-card w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="/../index.html" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
+    <a href="index.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Average Cost of Living</a>
+    <a href="/../average-salary/index.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Average Salary</a>
+    <a href="/../employment-sectors/index.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Primary Employment Sectors</a>
+     <a href="../temperature/index.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Weather Information</a>
+    <a href="/../../our-team/index.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">About our team</a>
+  </div> 
+        <h1>Average Cost of Living in US States</h1>
+        
+=======
     <head>
         <title>Cost of Living</title>
-           <link href="/../styles/costofliving.css" rel="stylesheet"/>
+           <link href="../styles/costofliving.css" rel="stylesheet"/>
 
       
 
@@ -62,10 +92,16 @@ td {
     position: float right;
     overflow-y: scroll;
 }
+
+
 </style>
     </head>
+
     <body>
         <h1>Cost of Living</h1>
+<!--Div for google translate function-->
+<div id="google_translate_element_2"></div>
+
 <p> Price differences across the United States can dramatically alter the cost of living in a given location. Take a look at the tables below to compare housing costs and fuel prices in different states and cities.</p>
 
 
@@ -78,11 +114,15 @@ td {
     <div class="right">
       <iframe title="Average Fuel Prices by State" aria-label="Table" id="datawrapper-chart-3UwKO" src="https://datawrapper.dwcdn.net/3UwKO/4/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="2091" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
 </script>
-</script>
-    </script>
         </div>
 </div>
 
-        <button><a href="/">Main Page</a></button>
+        <button><a href="../">Main Page</a></button>
+
+<!--Script for Translate-->
+<script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+<script src="../scripts/translate.js"></script> 
+
     </body>
 </html>
+
