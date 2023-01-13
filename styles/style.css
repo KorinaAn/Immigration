@@ -33,3 +33,5 @@ margin: 0 auto;
 align-items: center;
 zoom: 0.4}
 
+.temperaturemap {padding-block: 10px 10px !important;
+padding-inline: 13% 13% }
