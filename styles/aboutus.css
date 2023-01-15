@@ -4,39 +4,51 @@ html {
   background-color: bisque;
 }
 h1 {
+  padding-top: 50px;
   font-size: 60px;
   text-align: center;
   color: blue;
 }
-h2 {font-size: 25px;
+.left {font-size: 30px;
   text-align: left;
-  color: blueviolet;}
+  color: navy;
+  margin-left: 120px}
+.right {font-size: 30px;
+  text-align: right;
+  color: navy;
+  margin-right: 50px}
+.rightmanuel {font-size: 30px;
+  text-align: right;
+  color: navy;
+  margin-right: 160px}
 p,
 li {
   font-size: 16px;
   line-height: 2;
   letter-spacing: 1px;
 }
-button {
-  background-color: red;
-  font-size: 20px;
-  color: white;
-  padding: 10px 20px;
-  border: 1;
-  cursor: pointer;
-  display: block;
-  margin: 0 auto;
-}
-button:hover {background-color: dimgray;}
+.scroll{text-align: center;}
+.US {color: red;}
+.Immigration {color: white;}
+.data {color: blue;}
 
-img {display: block;
-  padding: 10;
-margin: 0;
-align-items: center;}
-body {
-  width: 1000px;
-  margin: 0 auto;
-  background-color: #FACC85;
-  padding: 0 50px 30px 50px;
-  border: 10px;
+.clearfix {
+  overflow: auto;
+  margin-left: 100px;
+  margin-right: 100px;
 }
+
+  .imgleft {float: left;
+  margin: 0 20px 15px 20px;
+  padding: 0px;
+  
+  }
+  .imgright {float: right;
+  margin: 0 20px 15px 20px;
+  padding: 0px;
+  
+  }
+#google_translate_element{
+    position: relative;
+    left: 580px;
+    width: 400px;

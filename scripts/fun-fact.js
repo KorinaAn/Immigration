@@ -25,7 +25,21 @@ var facts = [
     `Americans are the first and only people to walk on the moon`,
     `The US has 423 national parks`,
     `Alcohol is not legal to drink in the US until age 21`,
-    `Americans cannot legally rent a car until age 25`
+    `Americans cannot legally rent a car until age 25`,
+        `Before New York was, well, New York – it was called New Amsterdam as a settlement by the Dutch that chose to settle in Manhattan.`,
+    `the Statue of Liberty was actually a gift from the people of France to the United States in 1886.`,
+    `Back in the earlier parts of the 19th Century, Alaska wasn’t part of the USA. In fact, it was a part of Russia.`,
+    `The Liberty Bell in Philadelphia was actually made in the same place as Big Ben in London: The Whitechapel Bell Foundry`,
+    `The Mammoth Cave National Park actually has the longest cave system in the world and a place that’s great to visit.`,
+    `Hawaii is an incredibly beautiful volcanic archipelago. Consisting of numerous islands; it’s the only US state that’s solely made up of islands.`,
+    `You can get a unicorn hunting license from Michigan's Lake Superior State University`,
+    `It would take you more than 400 years to spend a night in all of Las Vegas's hotel rooms`,
+    `There’s an island full of wild monkeys off the coast of South Carolina called Morgan Island, and it's not open to humans`,
+    `Arizona and Hawaii are now the only states that don't observe daylight savings time`,
+    `Boston has the worst drivers out of the nation's 200 largest cities. Kansas City has the best drivers`,
+    `There’s a Darth Vader "gargoyle" on the National Cathedral in D.C.`,
+    `Of more than 2,500 National Historical Landmarks, only two can (willfully) move: San Francisco's cable cars and New Orleans’s St. Charles streetcar line`,
+    `The Library of Congress contains approximately 838 miles of bookshelves—long enough to stretch from Houston to Chicago`
 
 
 ]

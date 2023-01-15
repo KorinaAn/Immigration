@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 
      <head>
 <title>Average Salary</title>
@@ -9,16 +10,20 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link href="../styles/style.css" rel="stylesheet" />
-<style>
-body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
-.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
-.fa-anchor,.fa-coffee {font-size:200px}
-</style>
+<link href="../styles/salary.css" rel="stylesheet" />
+
+  <style type="text/css">
+    .goog-te-combo {
+      width: 200px;
+      height: 20px;
+      font-size: 20px;
+    }
+
+  </style>
 </head>
 
-    <body>
-                  <!-- Navbar -->
+<body>
+                  <!-- Navbar -->   
 <div class="w3-top">
   <div class="w3-bar w3-blue w3-card w3-left-align w3-large">
     <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
@@ -29,15 +34,24 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
      <a href="../temperature/index.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Weather Information</a>
     <a href="../our-team/index.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">About our team</a>
   </div> 
+  </div>
+
+    <div>
         <h1>Average Salary Per US State</h1>
+        <p class="scroll">Scroll through and click in each state to find out the average salary.</p> 
+        <p class="scroll">You can also zoom in and out if you can't see the state that you want!</p>
+    </div>
+        
 
 
 <!--Div for Google Translate function-->
-<div id="google_translate_element_4" ></div>
+<div id="google_translate_element" ></div>
 
+<!--Div for the iframe Map-->
+<div>
 <iframe title="2021 Average Income per State (USD$/year)" aria-label="Map" id="datawrapper-chart-CGsV2" src="https://datawrapper.dwcdn.net/CGsV2/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="719" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
 </script>
-<button><a href="../">Main Page</a></button>
+</div>
 
 <!--Script for Translate-->
 <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>

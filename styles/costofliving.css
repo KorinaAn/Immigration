@@ -21,12 +21,8 @@ li {
 .scroll{padding-bottom: 0;
         height: 800px;
 }
-/*body {
-  width: 1000px;
-  margin: 0 auto;
-  background-color: #FACC85;
-  padding: 0 50px 30px 50px;
-  border: 10px;
-}
-
+#google_translate_element{
+    position: relative;
+    left: 580px;
+    width: 400px;
 
