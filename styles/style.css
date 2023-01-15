@@ -33,17 +33,22 @@ margin: 0 auto;
 align-items: center;
 zoom: 0.4}
 
+iframe {content: center;
+        border: none;
+        margin-left: 300px;
+        background-color: white;
+}
 
 .temperaturemap {padding-block: 10px 10px !important;
 padding-inline: 13% 13% }
 
-body {
+/*body {
   width: 1000px;
   margin: 0 auto;
   background-color: #FACC85;
   padding: 0 50px 30px 50px;
   border: 10px;
-}
+}*/
 
 
 
@@ -71,8 +76,8 @@ body {
 }
 
 /* positioning of google translate button*/
-.google_translate_element_2{
+#google_translate_element{
     position: relative;
-    left: 0px;
+    left: 600px;
+    width: 400px;
 }
-
