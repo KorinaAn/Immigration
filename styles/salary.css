@@ -4,6 +4,7 @@ html {
   background-color: bisque;
 }
 h1 {
+  padding-top: 50px;
   font-size: 60px;
   text-align: center;
   color: blue;
@@ -17,23 +18,8 @@ li {
   line-height: 2;
   letter-spacing: 1px;
 }
-button {
-  background-color: red;
-  font-size: 20px;
-  color: white;
-  padding: 10px 20px;
-  border: 1;
-  cursor: pointer;
-  display: block;
-  margin: 0 auto;
-}
-button:hover {background-color: dimgray;}
-
-img {display: block;
-  padding: 10;
-margin: 0;
-align-items: center;}
-body {
+#datawrapper-chart-CGsV2{background-color: bisque;}
+/*body {
   width: 1000px;
   margin: 0 auto;
   background-color: #FACC85;
