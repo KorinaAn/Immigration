@@ -3,7 +3,7 @@ html {
   font-family: "Open Sans", sans-serif; /* this should be the rest of the output you got from Google Fonts */
   background-color: bisque;
 }
-h1 {
+h1 {padding-top: 50px;
   font-size: 60px;
   text-align: center;
   color: blue;
@@ -17,28 +17,12 @@ li {
   line-height: 2;
   letter-spacing: 1px;
 }
-button {
-  background-color: red;
-  font-size: 20px;
-  color: white;
-  padding: 10px 20px;
-  border: 1;
-  cursor: pointer;
-  display: block;
-  margin: 0 auto;
+#datawrapper-chart-dU1CL,#datawrapper-chart-3UwKO {background-color: white}
+.scroll{padding-bottom: 0;
+        height: 800px;
 }
-button:hover {background-color: dimgray;}
-
-img {display: block;
-  padding: 10;
-margin: 0;
-align-items: center;}
-body {
-  width: 1000px;
-  margin: 0 auto;
-  background-color: #FACC85;
-  padding: 0 50px 30px 50px;
-  border: 10px;
-}
-
+#google_translate_element{
+    position: relative;
+    left: 580px;
+    width: 400px;
 

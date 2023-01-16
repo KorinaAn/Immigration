@@ -33,17 +33,22 @@ margin: 0 auto;
 align-items: center;
 zoom: 0.4}
 
+iframe {content: center;
+        border: none;
+        margin-left: 300px;
+        background-color: white;
+}
 
 .temperaturemap {padding-block: 10px 10px !important;
 padding-inline: 13% 13% }
 
-body {
+/*body {
   width: 1000px;
   margin: 0 auto;
   background-color: #FACC85;
   padding: 0 50px 30px 50px;
   border: 10px;
-}
+}*/
 
 
 
@@ -61,18 +66,20 @@ body {
   margin: 10px;
   text-align: center;
   align-content: center;
-  font-size: 30px;
+  font-size: 40px;
+  color: gold;
 }
 
 
 #fact-generator{
-  border: 5px solid black;
+  border: none;
   margin: 10px;
 }
 
+#funfacts{font-size: 30px}
 /* positioning of google translate button*/
-.google_translate_element_2{
+#google_translate_element{
     position: relative;
-    left: 0px;
+    left: 600px;
+    width: 400px;
 }
-
